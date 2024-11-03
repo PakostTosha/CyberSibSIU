@@ -1,0 +1,168 @@
+/* ----------Контент - приглашение----------------------------------------------------------- */
+.content__invite {
+    text-align: center;
+}
+
+.content__invite-title {
+    font-weight: 700;
+    font-size: 55px;
+    color: #FFFFFF;
+}
+
+.content__button-invite {
+    margin-top: 20px;
+}
+
+.button-invite {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 20px 40px;
+    background-color: #961E82;
+    border-radius: 45px;
+}
+
+.button-invite:hover {
+    box-shadow: inset 0 -2px 3px black;
+}
+
+/* ----------Новостной контент----------------------------------------------------------- */
+.content__news {
+    width: 1200px;
+    height: 400px;
+    background: no-repeat 100%/cover url(../src/img/main/content-news/content__news_bgr.jpg);
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.news__block--left {
+    width: 50%;
+}
+
+.news__block--right {
+    width: 50%;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(4.5px);
+    border-radius: 0 20px 20px 0;
+}
+
+.text__reg {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+    color: #961E82;
+    margin-top: 50px;
+}
+
+.text__step {
+    text-transform: uppercase;
+    color: #0078BE;
+    font-weight: 700;
+    font-size: 52px;
+    letter-spacing: 0.075em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 17px;
+}
+
+.text__tournament {
+    font-weight: 700;
+    font-size: 20px;
+    color: #961E82;
+    margin-bottom: 20px;
+}
+
+.text__start {
+    font-weight: 400;
+    font-size: 16px;
+    color: #961E82;
+    margin-bottom: 55px;
+}
+
+.text__all-news a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #A8A5A5;
+    text-decoration: underline;
+}
+
+.text__all-news a:hover {
+    color: #757575
+}
+
+.text>* {
+    margin-left: 35px;
+}
+
+/* ----------Информация о турнире----------------------------------------------------------- */
+.tournament-info {
+    display: flex;
+}
+
+.tournament-info__img {
+    margin-left: 32px;
+    height: 580px;
+}
+
+.tournament-info__img img {
+    width: 340px;
+    display: block;
+}
+
+.tournament-info__img--csgo {
+    z-index: 1;
+}
+
+.tournament-info__img--dota {
+    z-index: 2;
+    position: relative;
+    left: 140px;
+    bottom: 100px;
+}
+
+.tournament-info__text {
+    margin: 15px 0 0 250px;
+    color: #FFFFFF;
+}
+
+.tournament-info__text-title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.tournament-info__text-info {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 50px;
+    margin-top: 20px;
+}
+
+/* ----------Правила турнира----------------------------------------------------------- */
+.rules {
+    color: #fff;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.rules__title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.rules__item {
+    font-weight: 400;
+    font-size: 30px;
+    list-style: auto;
+    margin-top: 45px;
+}
+
+.page__tournament-rules--button {
+    text-align: center;
+}
+
+.page__tournament-rules--button>* {
+    margin: 40px 0;
+}

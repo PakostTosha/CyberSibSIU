@@ -1,0 +1,122 @@
+/* ----------Новости----------------------------------------------------------- */
+.news__title{
+    font-weight: 700;
+    font-size: 50px;
+    color: #ffffff;
+    margin: 20px 100px;
+}
+
+.news__item{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #961E82;
+}
+
+.news__preview{
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.registration .news__preview{
+    background-image: url(../src/img/main/content-news/content__news_bgr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+
+
+.dota-update img{
+    position: absolute;
+    z-index: 2;
+    border-radius: 25px 0 0 25px;
+    width: 595px;
+    margin-top: 70px;
+}
+.dota-update .news__preview{
+    background-image: url(../src/img/main/news-preview/dota-update.jpg);
+    background-repeat: repeat;
+}
+
+.cs-update img{
+    position: absolute;
+    z-index: 2;
+    border-radius: 25px 0 0 25px;
+    width: 595px;
+    margin-top: 70px;
+}
+.cs-update .news__preview{
+    background-image: url(../src/img/main/news-preview/cs-update.jpg);
+    background-repeat: repeat;
+}
+
+.news__block--left {
+    width: 50%;
+}
+
+.news__block--right {
+    width: 50%;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(4.5px);
+    border-radius: 0 20px 20px 0;
+}
+
+.text__reg {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+    color: #961E82;
+    margin-top: 50px;
+}
+
+.text__step {
+    text-transform: uppercase;
+    color: #0078BE;
+    font-weight: 700;
+    font-size: 52px;
+    letter-spacing: 0.075em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 17px;
+}
+
+.text__tournament {
+    font-weight: 700;
+    font-size: 20px;
+    color: #961E82;
+    margin-bottom: 20px;
+}
+
+.text__start {
+    font-weight: 400;
+    font-size: 16px;
+    color: #961E82;
+    margin-bottom: 55px;
+}
+
+.text__all-news a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #A8A5A5;
+    text-decoration: underline;
+}
+
+.text__all-news a:hover {
+    color: #757575
+}
+
+.text>* {
+    margin-left: 35px;
+}
+
+.news__text-content{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 15px 10px;
+}
+
+.news > div:not(:last-child){
+    margin-bottom: 30px;
+}

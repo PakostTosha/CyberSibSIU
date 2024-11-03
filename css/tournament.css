@@ -1,0 +1,45 @@
+/* ----------Цели соревнований----------------------------------------------------------- */
+.tournament-targets {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tournament-targets__title {
+    font-weight: 700;
+    font-size: 45px;
+    width: 850px;
+    text-align: center;
+    margin-bottom:50px;
+}
+.tournament-targets__list {
+    width: 1000px;
+    font-weight: 400;
+    font-size: 30px;
+}
+.tournament-targets__item{
+    list-style: url(../src/img/main/tournament-targets/list-icon.svg);
+}
+.tournament-targets__item:not(:last-child) {
+    margin-bottom: 40px;
+}
+/* ----------Турнирная сетка----------------------------------------------------------- */
+.tournament-phase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tournament-phase__title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #ffffff;
+    width: 905px;
+    margin-bottom: 25px;
+}
+.tournament-phase__tables {
+    display: flex;
+    flex-direction: column;
+}
+.tournament-phase__tables img{
+    margin-bottom: 60px;
+}

@@ -1,0 +1,33 @@
+/* ----------Об игре----------------------------------------------------------- */
+.game {
+    width: 1200px;
+    margin: 0 auto;
+}
+.game__title {
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.game__img img{
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.game__short-description {
+    color: #961E82;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.game-text{
+    font-size: 20px;
+}
+.game__description {
+    color: #ffffff;
+    font-weight: 400;
+}
+.game:last-child{
+    margin-bottom: 15px;
+}

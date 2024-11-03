@@ -1,0 +1,76 @@
+/* ----------Заявка на участие в турнире----------------------------------------------------------- */
+.request-container {
+    width: 780px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.request-upper-line {
+    background-color: #961E82;
+    border-radius: 38px 38px 0px 0px;
+    width: inherit;
+    height: fit-content;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.request-form {
+    background-color: #ffffff;
+    width: inherit;
+    height: auto;
+    padding: 20px 50px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 0 0 38px 38px;
+    margin-bottom: 20px;
+}
+
+.team-rq {
+    margin-top: 10px;
+}
+
+.team__select-game {
+    display: flex;
+}
+
+.team__select-game>*:not(:last-child) {
+    margin-right: 10px;
+}
+
+.info {
+    color: #961E82;
+    margin-left: 30px;
+}
+
+.team__name-container {
+    margin: 10px 0;
+    border-bottom: 2px solid black;
+}
+
+.team__name-in {
+    width: 100%;
+    outline: none;
+    padding: 5px 0;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.btn{
+    background-color: #961E82;
+    color: #fff;
+    border-radius: 45px;
+    width: fit-content;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.accept-request{
+    padding: 10px 25px;
+    margin-top: 5px 0;
+}

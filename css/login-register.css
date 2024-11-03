@@ -1,0 +1,208 @@
+/* ----------Форма логина и регистрации----------------------------------------------------------- */
+.wrapper-form {
+    position: relative;
+    margin: 0 auto;
+    width: 490px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: height .2s ease;
+    overflow: hidden;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-form.active {
+    height: 590px;
+}
+
+.wrapper-form .login {
+    transition: transform .18s ease;
+    transform: translateX(0);
+}
+
+.wrapper-form.active .login {
+    transition: none;
+    transform: translateX(-550px);
+}
+
+.wrapper-form .registration {
+    position: absolute;
+    transition: none;
+    transform: translateX(550px);
+}
+
+.wrapper-form.active .registration {
+    transition: transform .18s ease;
+    transform: translateX(0);
+}
+
+.upper-line {
+    background-color: #961E82;
+    color: #ffffff;
+    border-radius: 20px 20px 0 0;
+    height: 60px;
+    width: 490px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upper-line h2 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.form-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0;
+}
+
+.password-control {
+    cursor: pointer;
+    position: absolute;
+    right: 75px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../src/img/main/login/eye-off-outline.svg)0 0 no-repeat;
+}
+
+.password-control.view {
+    background: url(../src/img/main/login/eye-outline.svg) 0 0 no-repeat;
+}
+
+.login {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.registration {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 350px;
+    border-bottom: 1px solid #000000;
+    padding: 5px 0px;
+}
+
+.input-box:not(:first-child) {
+    margin-top: 20px;
+}
+
+.input-box input {
+    width: 330px;
+    line-height: 1.5;
+    margin-left: 4px;
+    font-weight: 500;
+}
+
+input {
+    outline: none;
+}
+
+.input-box .icon-enable,
+.input-box .icon-disable {
+    cursor: pointer;
+}
+
+.forgot-password {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.forgot-password a {
+    color: #727272;
+}
+
+.forgot-password a:active {
+    color: red;
+}
+
+.form-box .buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.registration .form-box .buttons{
+    margin-top: 45px;
+}
+
+.btn {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #961E82;
+    border-radius: 45px;
+    padding: 12px 60px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #6b155d;
+}
+
+.login-register {
+    margin-top: 15px;
+}
+
+.login-register a {
+    color: #961E82;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.error {
+    color: red;
+    font-weight: 500;
+    font-size: 12px;
+    word-wrap: normal;
+    text-align: center;
+}
+
+.login-error-info {
+    height: 25px;
+    margin-top: 10px;
+}
+
+.msg {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #b9189e;;
+    border-radius: 3px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.login-link, .register-link{
+    cursor: pointer;
+}
+
+.login-link:hover, .register-link:hover{
+    color: #6b155d;
+}

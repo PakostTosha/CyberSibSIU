@@ -1,0 +1,324 @@
+/* --------------------------------------------------- Попап с информацией */
+.popup-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    /* display: none; */
+}
+
+.popup{
+    position: absolute;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popup__title{
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #961E82;
+    color: #ffffff;
+    border-radius: 20px 20px 0 0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup__text{
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    color: #961E82;
+    font-size: 20px;
+    border-radius: 0 0 20px 20px;
+}
+
+.close-popup{
+    width: 40px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+}
+
+/* --------------------------------------------------- Попап об исключении игрока */
+.popup-bg-kick{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    display: none;
+}
+
+.popup-kick{
+    position: absolute;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popup__title-kick{
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #961E82;
+    color: #ffffff;
+    border-radius: 20px 20px 0 0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.popup__text-kick{
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    color: #961E82;
+    font-size: 20px;
+    border-radius: 0 0 20px 20px;
+}
+
+.popup__text-kick p{
+    margin-bottom: 20px;
+}
+
+.close-popup-kick{
+    width: 40px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+}
+
+/* --------------------------------------------------- Попап с формой приглашения игрока */
+.popup-bg-invite{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.popup-invite{
+    position: absolute;
+    min-width: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popup__title-invite{
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #961E82;
+    color: #ffffff;
+    border-radius: 20px 20px 0 0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+}
+
+.popup__form-invite{
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    color: #961E82;
+    font-size: 20px;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popup__form-invite .pl-nickname{
+    padding: 5px;
+    border-bottom: 1px solid #961E82;
+    outline: none;
+}
+
+.popup__form-invite *{
+    margin-bottom: 10px;
+}
+
+.popup__form-invite button.btn{
+    padding: 10px;
+}
+
+.popup__error-invite{
+    padding: 10px;
+    border: 2px solid #961E82;
+}
+
+.close-popup-invite{
+    width: 40px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+}
+
+
+/* --------------------------------------------------- Попап с информацией */
+.popup-bg-team{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    /* display: none; */
+}
+
+.popup-team{
+    position: absolute;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popup__title-team{
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #961E82;
+    color: #ffffff;
+    border-radius: 20px 20px 0 0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup__text-team{
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    color: #961E82;
+    font-size: 20px;
+    border-radius: 0 0 20px 20px;
+}
+
+.close-popup{
+    width: 40px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+}
+
+
+/* --------------------------------------------------- Попап с информацией */
+.popup-bg-notices{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    /* display: none; */
+}
+
+.popup-notices{
+    position: absolute;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popup__title-notices{
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #961E82;
+    color: #ffffff;
+    border-radius: 20px 20px 0 0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup__text-notices{
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    color: #961E82;
+    font-size: 20px;
+    border-radius: 0 0 20px 20px;
+}
+
+.close-popup{
+    width: 40px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+}
+
+
+/* --------------------------------------------------- Попап с информацией */
+.popup-bg-delete{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    display: none;
+}
+
+.popup-delete{
+    position: absolute;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popup__title-delete{
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #961E82;
+    color: #ffffff;
+    border-radius: 20px 20px 0 0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup__text-delete{
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    color: #961E82;
+    font-size: 20px;
+    border-radius: 0 0 20px 20px;
+}
+
+.popup__text-delete a{  
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #961E82;
+    padding: 5px 15px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 45px;
+}
+
+.popup__text-delete a:hover{  
+    background-color: #6b155d;
+}
+
+.close-popup{
+    width: 40px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+}

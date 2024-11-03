@@ -1,0 +1,40 @@
+﻿.forgot-box .upper-line{
+    background-color: #961E82;
+    color: #ffffff;
+    border-radius: 20px 20px 0 0;
+    height: 60px;
+    width: 490px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.forgot-box .forgot-form, .change-form{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: 25px 30px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.forgot-box .forgot-form input, .change-form input{
+    border: 1px solid gray;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.forgot-box .forgot-form *:not(:last-child), .change-form *:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.forgot-box{
+    height: inherit;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,424 @@
+/* Окно настроек */
+.settings {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.settings__title {
+    width: inherit;
+    background-color: #961E82;
+    border-radius: 38px 38px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.settings__title h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.settings input {
+    box-sizing: border-box;
+}
+
+.settings__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #C078B4;
+    ;
+    height: inherit;
+    width: 240px;
+    border-radius: 0px 0px 0px 38px;
+}
+
+.settings__link {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 25px 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.settings__link:hover {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.settings__link.selected {
+    background-color: #E0A4D6;
+}
+
+.settings__container {
+    display: flex;
+    height: 570px;
+}
+
+.settings__form {
+    flex: 1 1;
+    background-color: #fff;
+    padding: 30px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+/* Параметры скролла */
+.settings__form::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f9f9fd;
+}
+
+.settings__form::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #000000;
+}
+
+.settings__form::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #f9f9fd;
+}
+
+/*  */
+
+.settings__form .selected {
+    display: flex;
+    flex-direction: column;
+}
+
+.settings__container .form-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    background-color: #961E82;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 45px;
+}
+
+.btn:hover {
+    background-color: #6b155d;
+    cursor: pointer;
+}
+
+.logout-btn {
+    width: fit-content;
+    padding: 10px 10px;
+    align-self: center;
+    margin: auto 0 25px;
+    background-color: #252525;
+}
+
+.logout-btn:hover {
+    background-color: #000000;
+}
+
+.error {
+    color: red;
+    font-weight: 500;
+    font-size: 12px;
+    word-wrap: normal;
+    margin-top: 5px;
+}
+
+/* Настройки пользователя */
+.user-settings__options .user-settings__title {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #000;
+    width: 90%;
+}
+
+.user-settings__options .input-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    width: 440px;
+}
+
+.user-settings__options input {
+    line-height: 1.5;
+    font-weight: 500;
+    width: 415px;
+    padding: 5px;
+    outline: none;
+}
+
+.user-settings__options .input-box:not(:first-child) {
+    margin-top: 10px;
+}
+
+.user-settings__options label {
+    margin-left: 5px;
+}
+
+.user-settings__options .change-btn {
+    width: fit-content;
+    padding: 5px 15px;
+    margin-top: 15px;
+}
+
+.msg {
+    width: 575px;
+    border: 2px solid #b9189e;
+    ;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+    word-wrap: break-word;
+    margin-top: 20px;
+}
+
+/* Турнир */
+.tournament__options .invite-status {
+    display: flex;
+    width: 75%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.tournament__options .status-value {
+    margin-left: 5px;
+}
+
+.tournament__options .request-link {
+    width: fit-content;
+    padding: 10px 15px;
+    margin-top: 15px;
+}
+
+.tournament__options .request-link:hover {
+    background-color: #6b155d;
+}
+
+
+/* Команда */
+
+.team__title {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.team__info li {
+    margin-bottom: 5px;
+}
+
+.team__info li:last-child {
+    margin-bottom: 10px;
+}
+
+.team__status {
+    display: flex;
+}
+
+.team__status p{
+    display: inline-block;
+}
+
+.team__status p:first-child{
+    margin-left: 5px;
+}
+
+.invite-status-container {
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 18px;
+    border-bottom: 1px solid #000;
+}
+
+.status-container {
+    display: flex;
+}
+
+.status {
+    margin-right: 10px;
+}
+
+.status.in-team {
+    color: #059b37;
+}
+
+.status.in-process {
+    color: rgb(189, 189, 0);
+}
+
+.team__players {
+    margin-top: 15px;
+}
+
+.captain {
+    flex-direction: column;
+}
+
+.player {
+    background-color: #C078B4;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.player__nick {
+    margin-bottom: 5px;
+}
+
+.player__nick,
+.player__url {
+    display: flex;
+    align-items: center;
+}
+
+.player__url a {
+    padding: 5px;
+}
+
+.player__url a:hover {
+    background-color: #fff;
+    border-radius: 40%;
+}
+
+.player__nick .player__value {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.player__value {
+    color: #961E82;
+    margin-left: 5px;
+}
+
+.player__action {
+    align-self: center;
+}
+
+.destroy-team {
+    background-color: #c90303da;
+    padding: 5px;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.team-reg {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: #059b37;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Уведомления */
+.notice__options .notice__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.notice__options .notice__title {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.notice__options .item {
+    background: #C078B4;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.notice__options .item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.notice__options .item__title {
+    color: #961E82;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.notice__options .item__text {
+    color: #fff;
+}
+
+.item__button {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.item__button a {
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.accept-btn {
+    background-color: #059b37;
+}
+
+.accept-btn:hover {
+    background-color: #03832d;
+}
+
+.delete-btn {
+    background-color: red;
+}
+
+.delete-btn:hover {
+    background-color: rgb(177, 8, 8);
+}
